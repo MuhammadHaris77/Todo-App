@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+     <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyDNdvYU4JZWJb4SmhJ4MC5xBDcb-KU-8gk",
+          authDomain: "todo-app-78833.firebaseapp.com",
+          projectId: "todo-app-78833",
+          storageBucket: "todo-app-78833.appspot.com",
+          messagingSenderId: "1030428278428",
+          appId: "1:1030428278428:web:4575993eb1360053743759",
+          measurementId: "G-8XPEL055C3"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+      </script>
+ 
+     
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+         
+
+        <div>
+            <br>
+            <h1>
+                TODO APP
+            </h1>
+        </div>
+        <br>
+        <div class="input-group"  class="input">
+
+            <input type="text" id="myInput" class="form-control" placeholder="Enter Todo App" aria-label="Recipient's username with two button addons">
+            <button class="btn bg-dark" id="btn" onclick="input()" type="button">ADD TODO</button>
+            
+          </div>
+          <center>
+            <button class="btn btn-outline-light bg-danger" id="btn-all" onclick="deleteAll()" type="button">DELETE ALL</button>
+          
+          </center>
+          
+         </div>
+         
+         <div class="container" id="main">
+
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+.input{
+    padding: 1
+    0px 30px 0px 30px; 
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 5px;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  font-family: 'Zen Loop', cursive;
+}
+h1:hover{
+  background-color: white; 
+  color:#DC143C
+  /*
+ box-shadow:  -2px -2px 13px 3px black */
+}
+input:hover{
+  
+  background-color: #F0F8FF;
+
+}
+#btn{
+  color: white;
+}
+
+.editBtn{
+  color: white;
+  background-color: #DC143C;
+  padding: 0px 10px; 
+  border: 2px solid white;
+  position: absolute;
+  top: 5px;
+  right: 120px;
+  border-radius: 3px;
+}
+
+.dltBtn{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  color: white;
+  background-color:#DC143C;
+  border: 2px solid white;
+
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+
+#btn-all{
+  margin: 10px;
+}
+
+.para{
+  font-size: 12px;
+  position: relative;
+  color: black;
+  background-color: #F8F8FF;
+  border-radius: 10px;
+  padding: 15px;
+  
+
+}
